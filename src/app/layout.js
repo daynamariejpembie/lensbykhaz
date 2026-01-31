@@ -1,10 +1,11 @@
 import "./globals.css";
+import Home from "./page";
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        {children}
+        <Home />
       </body>
     </html>
   );
