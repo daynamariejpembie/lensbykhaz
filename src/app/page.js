@@ -3,15 +3,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div >
-    <nav>
-      <ul>
-        <li>Portfolio</li>
-        <li>Session Info</li>
-        <li>About</li>
-        <li>Contact</li>
-      </ul>
-    </nav>
+    <div className=" bg-[url('./Images/goat-mobile.png')] bg-no-repeat bg-center bg-cover border-8 border-white h-screen md:bg-[url('./Images/goat.png')]" >
     </div>
   );
 }
