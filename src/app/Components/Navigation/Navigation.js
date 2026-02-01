@@ -3,8 +3,8 @@ import Link from "next/link";
 export default function Navigation() {
     return (
         <div>
-            <nav className="w-full flex justify-center md:justify-end">
-                <ul className="flex gap-5 text-stone-50 text-lg text-shadow-md/40 font-serif md:p-5">
+            <nav className="w-full flex justify-center sm:justify-end">
+                <ul className="flex gap-5 text-stone-50 text-md text-shadow-md/40 font-serif sm:p-5">
                   <Link
                   href="./Portfolio"
                   className="hover:text-shadow-lg/80"
