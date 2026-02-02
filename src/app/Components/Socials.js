@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Socials() {
     return (
-        <div className="flex justify-center space-x-1 w-full sm:justify-end">
+        <div className="flex space-x-1 w-full justify-center md:justify-end">
             <Link href="https://www.instagram.com/lens_bykhaz/" target="_blank">
               <Image 
               className="w-7 p-1"
