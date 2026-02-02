@@ -3,10 +3,10 @@ import Image from "next/image";
 
 export default function Socials() {
     return (
-        <div className="flex justify-center space-x-1 w-full sm:justify-end">
+        <div className="flex space-x-1 w-full justify-center md:justify-end">
             <Link href="https://www.instagram.com/lens_bykhaz/" target="_blank">
               <Image 
-              className="w-7 p-1"
+              className="w-7 p-1 md:w-9"
               src="/ig.webp"
               width={50}
               height={50}
@@ -15,7 +15,7 @@ export default function Socials() {
             </Link>
             <Link href="https://www.tiktok.com/@lensbykhaz" target="_blank">
             <Image
-              className="w-7 p-1"
+              className="w-7 p-1 md:w-9"
               src="/tik-tok.webp"
               width={50}
               height={50}
