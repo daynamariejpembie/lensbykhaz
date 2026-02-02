@@ -4,7 +4,7 @@ import Socials from "./Components/Socials";
 
 export default function Home() {
   return (
-    <div className="bg-[url('./Images/goat-mobile.png')] bg-cover h-screen md:bg-[url('./Images/goats.png')] bg-center flex flex-col">
+    <div className="bg-[url('./Images/goat-mobile.png')] bg-cover h-screen sm:bg-[url('./Images/goats.png')] bg-center flex flex-col">
       <div className="flex flex-col space-y-120 sm:space-y-0 h-full justify-center">
         <div className="flex flex-col w-full items-end p-5 text-shadow-lg md:">
           <h1 className="font-extrabold text-white text-4xl md:text-6xl font-mono">Lens by Khaz</h1>
