@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Navigation() {
     return (
         <div>
-            <nav className="w-full flex justify-center sm:justify-end">
+            <nav className="w-full flex sm:justify-end">
                 <ul className="flex gap-5 text-stone-50 text-md md:text-xl text-shadow-md/60 md:text-shadow-lg/80 font-serif sm:p-5">
                   <Link
                   href="./Portfolio"
