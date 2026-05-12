@@ -8,7 +8,11 @@ const links = [
 
 export default function Portfolio() {
     return (
-        <div className="flex flex-col gap-5 justify-center items-center min-h-dvh bg-[url('./Images/eye-mobile.png')] md:bg-[url('./Images/eyes.png')] bg-white/20 bg-cover bg-no-repeat">
+      <div className="bg-[url('./Images/eye-mobile.png')] md:bg-[url('./Images/eyes.png')] bg-white/20 bg-cover bg-no-repeat">
+        <div className="flex p-1">
+          <Link className="text-white text-xl text-shadow-2xl font-serif p-5" href="/">Home</Link>
+        </div>
+         <div className="flex flex-col gap-5 justify-center items-center min-h-dvh">
           {links.map((link) => (
             <Link 
               key={link.href}
@@ -25,5 +29,7 @@ export default function Portfolio() {
             </Link>
           ))}
         </div>
+      </div>
+       
     )
 }
